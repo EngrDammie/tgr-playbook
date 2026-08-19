@@ -505,7 +505,7 @@ May this *bold move* unlock *MASSIVE COMMISSIONS*, *LEADERSHIP BONUSES*, and *NE
             const urlSafeName = name.replace(/\s+/g, '_');
 
             // UPDATED: Link now includes fullname and refid
-            const playbookLink = `https://dammieoptimus.github.io/tgr-playbook/?fullname=${urlSafeName}&refid=${username}`;
+            const playbookLink = `https://tgr-playbook.dammieoptimus.workers.dev/?fullname=${urlSafeName}&refid=${username}`;
 
             message = `🎉🎉🎉 *BOOM‼️BOOM BOOM* 🎉🎉🎉
 
@@ -514,7 +514,7 @@ My dear TGR family, please help me give a grand welcome to our newest superstar 
 👨‍🚀 *${name}*  
 🔑 *Username:* *${username}* 🚀  
 
-...who just joined *TGR* with the ${selectedPackageText}  
+...who just joined *TGR* with the *${selectedPackageText}*  
 
 🎊🎊 You're officially WELCOME to your *Telecoms Sector Oil Well* 🛢️📲💰  
 May this journey bring you *massive earnings* and *unstoppable success*! 💸🔥
